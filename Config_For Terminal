@@ -1,0 +1,13 @@
+## for repositories on github
+
+go to repository and click on code and copy the url
+
+make sure git is on your computer with terminal
+
+Git clone
+
+
+git config user.name ""
+
+
+git config user.email ""
