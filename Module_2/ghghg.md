@@ -1,1 +1,0 @@
-Creat project, find dataset, asking questions on dataset, creating repoository with readme.md file 
