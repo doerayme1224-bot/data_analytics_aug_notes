@@ -44,8 +44,9 @@ Let you look for functions in a spreedsheet
 #### **[Video on Lookup Functions](https://www.loom.com/share/9b46d4f63ce049a28bd63d8aa5d9907e?sid=cbd6a3b3-de84-44f3-b45d-2d9b13234ab4)**
 ## Pivot Table
 Effective summary and analysis on extensive data sets by reorganizing data on specific criteria
-- 
+- Drag and drop style menu
+- really important
 #### **[Video On Pivot Tables](https://www.loom.com/share/16bc33326fa442a28041f48e79a966d6?sid=4fb5b6a6-1db4-44ac-97f8-0d90eb3be11f)**
-questions: 
-- whats a stacked bar chart
-- 
+## Pivot Charts
+Drag and drop to creat Visualizations
+#### **[Video on pivot charts](https://www.loom.com/share/015e726141fc4205831ec59310a4d768?sid=44260412-2ca3-4aff-849e-40140309b06f)**
