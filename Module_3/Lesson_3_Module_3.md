@@ -111,3 +111,71 @@ tests empty values (NULL values)
 `WHERE address IS NULL`
 Slects employees who do not have an address listed
 **[Video on `IS NULL`](https://www.loom.com/share/f1dd8b1eab454dfc85dcfdd140e89d29?sid=8a3a58e4-3f37-4d43-bec8-d8123a9f2b73)**
+#### `AND, OR, NOT`
+#### `AND`
+will return values if all statements are true
+**EX:**
+`SELECT first_name, last_name, age`
+`FROM employees`
+`WHERE age >= 30 AND department = 'Sales';`
+Returns only if age of employee is greater than or equal to 30, `AND` if they belong to the sales department
+#### `OR`
+returns values if only one statement is true
+**EX:**
+`SELECT first_name, last_name, age`
+`FROM employees`
+`WHERE department = 'Sales' OR department = 'IT';`
+returns the value of an employee if they are part of the Sales department or if they are part of the IT department
+#### `NOT`
+negation opperator, will do the opposite of the statement
+**EX1**
+`SELECT first_name, last_name, department`
+`FROM employees`
+`WHERE NOT department = 'Marketing';`
+Returns employees first name, last name, and department unless they are part of the marketing department
+**EX2**
+`SELECT first_name, last_name, department`
+`FROM employees`
+`WHERE NOT department LIKE 'Sale%';`
+Returns employee details unless there is a `Sale%;` substring in their department name (like Sales)
+**EX3**
+`SELECT first_name, last_name, department`
+`FROM employees`
+`WHERE department NOT IN ('Marketing', 'Sales');`
+Returns employee details unless they are part of the marketing or sales department
+**[Video on `AND, OR, NOT`](https://www.loom.com/share/229233a9bd2441898fcdab409ab55f17?sid=79fca880-e811-4549-8414-086fc72b6db5)**
+#### Combining Logical Operators
+Apply Multiple conditions, parenthesis are importasnt as they will decide the order in which the conditions are evaluated
+**EX:**
+`SELECT * FROM employees`
+`WHERE (age >= 30 OR age <= 20) AND NOT department = 'HR';`
+Returns employees based on two conditions
+- employees should be 30 or older, OR 20 an younger 
+- employees will be in any department except HR
+Parenthesis will tell SQL to evaluate that condition first, without parenthesis, SQL would do the `AND` condition first then the `OR` condition, which may return false results.
+Parenthesis also group several conditions as on unit, think of order of operations (PEMDAS)
+**EX:**
+`SELECT * FROM employees`
+`WHERE (department = 'IT' OR department = 'Marketing')`
+`AND age >= 25`
+`AND NOT position LIKE '%Manager%';`
+explanation:
+- `(department = 'IT' OR department = 'Marketing')`
+    this condition returns employees if their department is `IT` or `Marketing` 
+- `AND age >= 25`
+    This conndition returns employees if their age is greater than or equal to 25
+- `AND NOT position LIKE '%Manager%';`
+    This condition won't return values if they have the `%Manager%` substring as part of their position
+**EX:**
+`SELECT * FROM employees`
+`WHERE (performance_rating < 3 OR performance_rating > 8)`
+`AND department = 'Sales'`
+`AND region NOT IN ('East', 'North');`
+explanation:
+- `(performance_rating < 3 OR performance_rating > 8)`
+    This returns an employee if there performance rating is less than 3 (1 or 2) or greater than 8 (9 or 10)
+- `AND department = 'Sales'`
+    This condition returns an employee if theyre in the sales department 
+- `AND region NOT IN ('East', 'North');`
+    This condition returns a value if their not in the East or North regions
+**[Video on Combining Logical Operators](https://www.loom.com/share/acedf51e72fb4dd88508eb2697b36950?sid=e350de0f-e327-4b6b-8f0e-a42412576c20)**
