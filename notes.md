@@ -1,4 +1,5 @@
-# How to create projects 
+# How to create projects
+## The First Project We Did
 1. Select dataset 
 2. Make repository 
     - add readme file as description
@@ -24,3 +25,10 @@
         - df = pd.read_csv('file_path')
         - df.head()
 8. optional: push colab to github 
+
+## for csv file
+1. in the terminal, run:
+    - sqlite3 <NameOfDB.sqlite>
+        - .mode csv
+        - .import <NameOfCSV.csv> <NameOfTable>
+

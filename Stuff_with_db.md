@@ -14,4 +14,3 @@ All data files should be in one place (like a folder)
     - sqlite3 <NameOfDB.sqlite>
         - .mode csv
         - .import <NameOfCSV.csv> <NameOfTable>
-2. 
