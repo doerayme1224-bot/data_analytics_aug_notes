@@ -44,4 +44,9 @@ Tells sqlite3 to work with a csv file
 Takes csv file and makes it a table
         - .quit
  takes you out of sqlite
-
+## navigating dbeaver and sqlite
+dbeaver
+- go up to database
+    - select new database connection
+    - chose the database I will work with
+    - after that you open the file 
