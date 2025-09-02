@@ -1,4 +1,5 @@
 # Joining data 
+[[SQL]]
 ### Intro to `INNER JOIN`
 Combines rows from two or more tables(Based on related data between the rows)
 **Syntax of `INNER JOIN`:**

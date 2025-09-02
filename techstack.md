@@ -21,7 +21,7 @@ r studio
 Github?
 draw.io?
 kaggle?
-
+- obsidian
 
 ## Terminal Installations
 
