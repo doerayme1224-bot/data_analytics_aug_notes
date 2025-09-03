@@ -1,6 +1,6 @@
 # Lesson 8: Stastistical inference
 **Probability**
-
+[[General Data Analytics]]
 Measure of *how likely* an event is to happen
 - scale from *0 - 1*
 0 means event is *impossible* 

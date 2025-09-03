@@ -1,5 +1,5 @@
 # Module 2: Lesson 1: Excel Basics
-
+[[Excel]]
 ## Intro
 Excel is a spreedsheet program. Uses Columns and rows which create cells. 
 ### Why its Common

@@ -1,4 +1,5 @@
 # Lesson 10: Logic Tree
+[[General Data Analytics]]
 Systematic Strategic way of dealing with Problems (Structured Thinking)
 1 : define Key Problem (be specific on details)
 ![Image on logic tree](https://cdn.disco.co/media/Screenshot_2025-07-04_080427_9a46d9e6-9eec-40a6-8281-34ab64470b05.png)

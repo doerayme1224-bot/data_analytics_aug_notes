@@ -1,4 +1,5 @@
 # Lesson 9: Realationships Between Variables
+[[General Data Analytics]]
 **Correlation** (often denouted as "r")
 Statistical concept which measures how much two numbered variables will change together
 Helps us evaluate trends

@@ -1,5 +1,5 @@
 # Lesson 7: Visualizing Data Distributions
-
+[[General Data Analytics]]
 Its good to Visualize data to *see patterns and insights*.
 
 **Frequency Distributions**

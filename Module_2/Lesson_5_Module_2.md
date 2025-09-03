@@ -1,4 +1,5 @@
 # Lesson 5, 
+[[Excel]]
 #### Client Intro 
 This Video seved as an intro to the client, wildflowers, a shop in Portland Oregon trying to find out why people aren't buying a sspecific plant
 It dove into what kind of data would br useful to find out why that plant isn't being bought, and also showed a small table to show that he did collect said data 

@@ -1,4 +1,5 @@
 # Advanced Excel Topics
+[[Excel]]
 ## Creating Visualizations
 Important cause Viz's let us *see realationships between variables*, they also let us *easily share our findings*, and tell *data stories*
 ## Bar Charts

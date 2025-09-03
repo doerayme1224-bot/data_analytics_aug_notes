@@ -1,5 +1,5 @@
 # Lesson 5: Measures Of Central Tendency 
-
+[[General Data Analytics]]
 ## Descriptive Statistics
 Help us *Summarize, Organize, and Explain characteristics* of a dataset
 They're great when dealing with *Multiple Values*

@@ -1,5 +1,5 @@
 ### lesson 2 Data Analytics Cycle
-
+[[General Data Analytics]]
 
 
 **Step 1. Develop Questions**

@@ -1,5 +1,5 @@
 # Lesson 6: Measures of Position and Disperssion
-
+[[General Data Analytics]]
 **Measures of Position**:Important for knowing how *values* relate to a *dataset*
 **Percentiles**                                                                  
 a *Measure* which shows the *value where a certain percent of observations* fall *within a dataset*.                                                           
