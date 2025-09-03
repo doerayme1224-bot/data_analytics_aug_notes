@@ -19,8 +19,9 @@ m : message. Explains what you are pushing to github (like entering the bus)/(Gi
     - git push 
 Pushes changes to github (like riding the bus).
 6. create a new project folder in your google drive 
-    - create data folder 
-    - paste data inside data folder
+    - Put the data in a data repository, and use it from there (Like what I did by creating the *my_data* repository)
+    - create data folder (otional)
+    - paste data inside data folder (optional)
     - create google colab
 i'll Name it main because There will be different colabs, so when I name it main, I'll be able differentiate between them
 7. open file that you just created
