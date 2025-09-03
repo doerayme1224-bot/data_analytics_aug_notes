@@ -1,4 +1,5 @@
 # Lesson 9, Buzzfeed
+[[Excel]]
 ### Planning A/B Test 
 A/B Testing: compare Multiple versions of the same variable, to see what performs better.
 1. Figure out What yyou want to change

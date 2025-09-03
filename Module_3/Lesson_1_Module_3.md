@@ -1,4 +1,5 @@
-# Lesson 1 Intro to SQL
+# Lesson 1 Intro to 
+[[SQL]]
 #### Sql
 - Programming language used for relational databases 
 **Used By**

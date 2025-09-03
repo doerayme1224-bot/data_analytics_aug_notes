@@ -1,4 +1,5 @@
 # SUMIF and AVERAGEIF
+[[Excel]]
 #### SUMIFS
 sums criteria if it meets the condition you give it
 - SUMIFS(sum_range, criteria_range1, criteria1, criteria_range2, criteria2)

@@ -1,4 +1,5 @@
 # Cleaning and organizing data
+[[SQL]]
 ### Calcualated Fields 
 Custom fields you create during a query. not stored in database but are created aat the time of the query.
 **Use Cases**

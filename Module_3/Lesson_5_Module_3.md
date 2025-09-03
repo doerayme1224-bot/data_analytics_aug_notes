@@ -1,4 +1,5 @@
 # Lesson 5 using `HAVING` with aggregates 
+[[SQL]]
 #### to learn 
 - `HAVING`
 - `DISTINCT`

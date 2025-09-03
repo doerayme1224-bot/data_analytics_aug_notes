@@ -1,4 +1,5 @@
 # Lesson 4, Aggregating Data
+[[SQL]]
 Things to use in this lesson 
 - `COUNT`
 - `MIN`

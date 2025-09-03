@@ -1,4 +1,5 @@
 # Lesson 2 Module 3, Querying In SQL
+[[SQL]]
 #### Three Commands
 1. `SELECT & FROM`
 2. `ORDER BY`

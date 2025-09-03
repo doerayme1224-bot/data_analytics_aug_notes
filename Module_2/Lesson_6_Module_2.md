@@ -1,5 +1,6 @@
 # Lesson 6, Data Cleaning and Ananlysis in Excel
 #### Handling Missing Data
+[[Excel]]
 Handling data that is not complete, Handling Missing data well can help keep your analysis trustworthy
 - =COUNTBLANK, counts blank cells
 **Imputation with Averages**; Substitute missing values with the average of available data points

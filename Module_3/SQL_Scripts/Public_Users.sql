@@ -7,3 +7,7 @@ CREATE TABLE public.users
     deleted_at timestamp with time zone,
     CONSTRAINT users_pkey PRIMARY KEY (user_id)
 );
+
+
+
+

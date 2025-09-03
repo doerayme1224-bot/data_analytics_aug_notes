@@ -1,4 +1,5 @@
 # Date and Time functions
+[[SQL]]
 #### 1. `date()`
 returns the date part of from a `datetime` expression ( returns as YYYY,MM,DD)
 - good when I need the date (looking at the date a client purchased an item)

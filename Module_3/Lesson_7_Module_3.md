@@ -1,5 +1,5 @@
 # Data Analyst Interview Process
-
+[[SQL]]
 Step 1. HR Interview
 Objective
 The HR interview is designed to assess your cultural fit within the company and evaluate your overall qualifications, experience, and potential to succeed in the role. 💼

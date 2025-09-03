@@ -13,3 +13,7 @@ CREATE TABLE public.purchases
         ON UPDATE NO ACTION
         ON DELETE NO ACTION
 );
+
+
+
+

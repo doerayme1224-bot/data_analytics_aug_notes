@@ -1,4 +1,5 @@
 # other types of sql joins
+[[SQL]]
 ### Left join
 it returns all rows from the left table and the matched rows from the right table (no match in the right table would make the columns for the right table return as Null values)
 **EX:**

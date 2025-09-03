@@ -1,4 +1,5 @@
 # Filtering Data With `WHERE`
+[[SQL]]
 #### Clauses/keywords in this Lesson
 1. `WHERE`
 2. `BETWEEN`

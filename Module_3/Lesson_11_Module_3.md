@@ -1,7 +1,8 @@
 # Subqueries
+[[SQL]]
 a querry inside another SQL statement 
 ### Types 
-- Scalar suqueries: return a single value (used with `SELECT`,`WHERE` & `HAVING`)
+- Scalar subqueries: return a single value (used with `SELECT`,`WHERE` & `HAVING`)
 - Row Subqueries: Return a single row with many columns (typically with `WHERE` & `FROM`)
 - Column Subqueries: Return a column and can include multiple rows (mostly `SELECT`)
 - Table Subqueries: Return a full table (with `FROM`)

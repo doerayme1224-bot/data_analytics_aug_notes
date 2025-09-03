@@ -1,4 +1,5 @@
 # Applied Lesson, Ma Bichette
+[[Excel]]
 ##### Client Intro
 Served as an intro to the business and the owner, sunisa, who has many questions about her business
 **[Client Intro](https://www.loom.com/share/8fec76f0c6354270b47e7290912deaef?sid=1b6b2472-b806-472c-ab88-1872cd332edf)**

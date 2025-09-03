@@ -1,4 +1,5 @@
 # Applied Statistics In Excel
+[[Excel]]
 ### Central Tendnecy in Excel 
 **Numerical Value Functions**
 - =AVERAGE()
