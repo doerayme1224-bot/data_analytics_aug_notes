@@ -63,5 +63,42 @@
 `from Track;`
 - brings many tables together (Mediatype, playlist, playlisttrack, and there is probably more)
 
+### Questions
+1. How does the sale price compare to the average of that media type
+2. which employee works the hardest (helps the most people)
+3. What are the demographics of their customers
 
-### 
+### Bulid off of these queries
+
+select *,
+	employee.EmployeeId,
+	customer.SupportRepId
+from employee
+full outer join customer on employee.EmployeeId = customer.SupportRepId;
+
+**What do I want to Look at**
+- employee id
+- employee full name
+- support rep id
+- customer country
+- potentually build on it so I could see how much a customer spent on an invoiceline
+
+
+select *,
+	track.MediaTypeId,
+	MediaType.MediaTypeId
+from track
+full outer join MediaType on MediaType.MediaTypeId = track.MediaTypeId;
+
+**What do I want to look at**
+- MediaTypeID
+- Name (from MediaType table)
+- UnitPrice
+- 
+
+select *
+from Customer;
+**What do I want to look at**
+- country
+- if they work for a company
+- look into how many invoices they have made 
