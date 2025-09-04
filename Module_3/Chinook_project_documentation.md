@@ -102,3 +102,11 @@ from Customer;
 - country
 - if they work for a company
 - look into how many invoices they have made 
+
+
+### Slide Presentation Outline
+
+1. Intro to Client
+- show what type of business it is
+- show how my analysis will help their business
+2. Show 
