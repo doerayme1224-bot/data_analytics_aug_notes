@@ -1,0 +1,49 @@
+-- 1. Joins can combine more than two tables. Join the users table,  
+-- purchases table, and purchase items table. Remember to use aliases.
+
+select *
+from users as u 
+join purchases as p
+on u.user_id = p.user_id
+join purchase_items as pi
+on p.purchase_id = pi.purchase_id;
+
+-- 2. The DATEPART() function extracts whichever part of the
+--  timestamp you want. E.g. DATEPART(year FROM '2001-02-16 20:38:40')
+--  returns 2001. Use DATEPART() to extract which calendar month
+--  each user was created in.
+
+select date_part('month',u.created_at) as month_of_creation
+from users as u;
+
+-- 3. Use DATEPART() and a group by statement to count how many
+--    users were created in each calendar month.
+
+select 
+	date_part('month',u.created_at) as month_of_creation,
+	count(user_id)
+from users as u
+group by month_of_creation
+order by month_of_creation;
+
+
+-- 4. Use the DATEPART() function to find the number of users
+--    created during each day of the week.
+--    Hint: Use DAY as the first input
+
+
+
+-- 5. The LEN() function will return the length of character columns.
+--    Use LEN() and a group by to display the air_date in order of longest average question 
+-- length to shortest average question length.
+-- 6. Find the most recent purchase made by each user.
+
+-- 7. Find the oldest purchase made by a user with a yahoo email
+--    address.
+-- 8. Find all the users' emails who made at least one purchase from the
+--    state of NY.
+
+-- 9. Use the DATEPART() function to find the number of users created
+--    during each day of the week.
+--    Hint: Use DW as the first input
+-- 10. How about each day of the month?
