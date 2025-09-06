@@ -31,19 +31,77 @@ order by month_of_creation;
 --    created during each day of the week.
 --    Hint: Use DAY as the first input
 
+select 
+	date_part('DOW', u.created_at) as Day_of_creation,
+	count(user_id) as Number_of_users
+from users as u
+group by day_of_creation 
+order by day_of_creation;
 
 
 -- 5. The LEN() function will return the length of character columns.
 --    Use LEN() and a group by to display the air_date in order of longest average question 
 -- length to shortest average question length.
+
+
+
 -- 6. Find the most recent purchase made by each user.
+
+select 
+	distinct p.user_id,
+	max(p.created_at )
+from purchases as p
+group by p.user_id
+order by p.user_id;
 
 -- 7. Find the oldest purchase made by a user with a yahoo email
 --    address.
+
+select 
+	distinct purchases.user_id,
+	min(purchases.created_at ) as earliest_date,
+	u.email 
+from purchases 
+join users as u 
+on purchases.user_id = u.user_id
+where u.email like '%@verizon.com' 
+group by purchases.user_id, u.email
+order by earliest_date
+limit 1;
+
 -- 8. Find all the users' emails who made at least one purchase from the
 --    state of NY.
+
+select 
+	p.user_id,
+	p.state,
+	u.email,
+	pi.quantity
+from users as u 
+join purchases as p
+on u.user_id = p.user_id
+join purchase_items as pi
+on p.purchase_id = pi.purchase_id
+where p.state like 'NY' and pi.quantity >= 1
+group by p.user_id, p.state, u.email, pi.quantity
+order by p.user_id;
 
 -- 9. Use the DATEPART() function to find the number of users created
 --    during each day of the week.
 --    Hint: Use DW as the first input
+
+select 
+	date_part('DOW', u.created_at) as Day_of_creation,
+	count(user_id) as Number_of_users
+from users as u
+group by day_of_creation 
+order by day_of_creation;
+
 -- 10. How about each day of the month?
+
+select 
+	date_part('day', u.created_at) as day_of_creation,
+	count(user_id) as Number_of_users
+from users as u
+group by day_of_creation 
+order by day_of_creation;
