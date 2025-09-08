@@ -109,4 +109,56 @@ from Customer;
 1. Intro to Client
 - show what type of business it is
 - show how my analysis will help their business
-2. Show 
+2. Show my questions
+- How does the sale price compare to the average of that media type
+- which employee works the hardest (helps the most people)
+- What are the demographics of their customers
+3. present my findings for each question (with the sql scripts)
+**The scripts:**
+```sql
+select 
+	c.FirstName,
+	c.LastName,
+	c.CustomerId,
+	c.company,
+	c.country,
+	count(i.customerid) as amount_of_invoices,
+	sum(i.Total) as total_spent
+from invoice as i
+join Customer as c
+on i.CustomerId = c.CustomerId
+group by c.CustomerId
+order by country;
+-- this query shows me the customers information, like the country they are from, if they work for a company or not, and the aamount of invoices and what they spent on those invoices.
+```
+avg price for each media type;
+- 0.15 to 2.00 dollars
+
+**[for mpeg audio file licensing](https://r.search.yahoo.com/_ylt=AwrhcZe6Jb5ocScBjhdXNyoA;_ylu=Y29sbwNiZjEEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1758501562/RO=10/RU=https%3a%2f%2fsicorps.com%2fcoding%2fmpeg-audio-standards-and-their-licensing-fees%2f/RK=2/RS=Gft_oEVzV7wBdJFUDuTYoNdsDOc-)**
+
+```sql
+select 
+	t.MediaTypeId,
+	avg(t.UnitPrice),
+	m.name
+from track as t
+join MediaType as m
+on t.MediaTypeId = m.MediaTypeId
+group by t.MediaTypeId;
+-- this shows me the average price for each mediatype
+```
+```sql
+select 
+	c.SupportRepId,
+	e.FirstName,
+	e.LastName,
+	count(c.SupportRepId) as customers_serviced
+from Customer as c
+join employee as e
+on c.SupportRepId = e.EmployeeId
+join invoice as i
+on c.CustomerId = i.CustomerId
+group by c.SupportRepId;
+-- shows me the amount that each employee has helped a customer
+```
+4. conclusion/recommendations 
