@@ -15,3 +15,7 @@ explain pivot chart on delivery speed for each cuisine
 - explain what doordash could start doing
 5. conclude the presentation
 - maybe put a nice slide towards the end
+
+
+
+Script

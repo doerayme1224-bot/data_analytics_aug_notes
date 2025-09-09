@@ -14,3 +14,6 @@
 - alt/null hypothesis
 - show how results are statistically significant
 5. conclusion
+
+
+Script
