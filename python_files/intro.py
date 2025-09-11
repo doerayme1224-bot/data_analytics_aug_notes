@@ -73,4 +73,4 @@ print(f'The number {a} elevated to the number {b} is equal to the the number {t}
 if __name__ == '__main__': # not 'as' it is '=='
     pass
 
-# = is an assignment operator
+# == is an assignment operator
