@@ -116,19 +116,17 @@ from Customer;
 3. present my findings for each question (with the sql scripts)
 **The scripts:**
 ```sql
-select 
+select 	
 	c.FirstName,
 	c.LastName,
 	c.CustomerId,
-	c.company,
-	c.country,
 	count(i.customerid) as amount_of_invoices,
-	sum(i.Total) as total_spent
-from invoice as i
-join Customer as c
-on i.CustomerId = c.CustomerId
-group by c.CustomerId
-order by country;
+	sum(i.total) as total_spent
+from customer as c 
+join invoice as i
+on c.CustomerId = i.CustomerId
+group by c.country
+order by total_spent desc;
 -- this query shows me the customers information, like the country they are from, if they work for a company or not, and the aamount of invoices and what they spent on those invoices.
 ```
 avg price for each media type;
