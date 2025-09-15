@@ -125,7 +125,7 @@ select
 from customer as c 
 join invoice as i
 on c.CustomerId = i.CustomerId
-group by c.country
+group by c.customerid
 order by total_spent desc;
 -- this query shows me the customers information, like the country they are from, if they work for a company or not, and the aamount of invoices and what they spent on those invoices.
 ```
@@ -160,3 +160,5 @@ group by c.SupportRepId;
 -- shows me the amount that each employee has helped a customer
 ```
 4. conclusion/recommendations 
+
+Protected MPEG-4 video file
