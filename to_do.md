@@ -5,3 +5,7 @@
 - 
 - SQL : lab, Youtube Trending Videos
 - SQL : lab, Crunchbase Investments
+- python : Lab - ladder part 3 - lists + lesson on lists
+- python: Lab - Sets, Tuples, Booleans, and Dictionaaries + Lesson number 4
+- python: Lab -- control flow & iteration essentials + lesson 5
+- python: lab - list comprehensions + lesson 6
