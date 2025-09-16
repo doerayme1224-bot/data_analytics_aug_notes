@@ -95,4 +95,23 @@ print(type("Hello!")) # Outputs 'str'
 ##### Auto Type conversion
 1. integer to float: arithmetic
     `3 + 2.0` results in float `5.0`
-I need to complete the rest of auto type conversions
+2. Division always results in float
+    `4 / 2` is `2.0` not `2`
+3. Floor Division
+- Returns integer if both values are integers
+    `5 // 2` will get `2`
+- if one is a float, the result is a float (still represents floor division)
+    `5.0 // 2` will get `2.0`
+4. Exponents depends on the power
+    `4 ** 0.5` will get `2.0`
+#### Variables
+1. start with letter or underscore (can't start with numbers)
+2. No special characters (!, @, #, %)
+3. case sensitive (`variable` and `VARIABLE` are different)
+4. Avoid words that already have special meanings (`for`, `if`, `and`, etc.)
+**Practices**
+- Descriptive names that describe the data
+- Consistant naming convention (think of `snake_case`)
+**[pep 8 for good habits](https://peps.python.org/pep-0008/)**
+
+## Do the copy lesson practice
