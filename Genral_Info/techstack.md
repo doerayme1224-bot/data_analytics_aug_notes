@@ -22,6 +22,9 @@ Github?
 draw.io?
 kaggle?
 - obsidian
+jupiter labs
+
+
 
 ## Terminal Installations
 
